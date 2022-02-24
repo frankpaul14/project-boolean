@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+div.contenitore{
+    width:1200px;
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin:auto;
+    padding: 100px;
+    
+}
+
+header{
+    text-align: center;
+}
+header>h1{
+    color: rgb(0,220,0);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 5px;
+    
+}
+
+img{       
+    width: 250px;
+}
+
+nav{
+    background-color: rgb(0,220,0);
+    width:97%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+main{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    
+}
+
+div.monopattino{
+    margin-bottom: 30px;
+}
+div.monopattino>div.nome{
+    font-size: 23px;
+}
+div.monopattino>div.nome::before{
+    content:"\25A0";
+}
+div.monopattino>div.via,dir.Stato{
+    margin:5px;
+}
+
+div.monopattino>div.via::before{
+    content: "\21A6";
+}
+
+div.monopattino>input.orange {
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 25px;
+    background-color: orange;
+}
+
+div.monopattino>input.verde {
+    border: none;
+    border-radius: 5px;
+    width: 550px;
+    height: 25px;
+    background-color: rgb(0,220,0);
+}
+
+div.monopattino>input.rosso {
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    background-color:firebrick;
+}
+
+
